@@ -107,16 +107,16 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1); //12
-  TIM4->CCR1=116;
+  TIM4->CCR1=80;
 
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2); //13
-  TIM4->CCR2=103;
+  TIM4->CCR2=90;
 
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3); //14
-  TIM4->CCR3=50;
+  TIM4->CCR3=27;
 
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_4); //15
-  TIM4->CCR4=76;
+  TIM4->CCR4=50;
 
   /* USER CODE END 2 */
 
