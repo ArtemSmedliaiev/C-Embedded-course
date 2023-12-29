@@ -1,18 +1,21 @@
 #include <stdio.h>
+#include <string.h>
 
-int main()
-{
-    char str[100];
-    int numCount = 0;
-    
-    printf("Enter a string:\n");
-    scanf("%[^\n]s", str);
-    
-    for(int i = 0; str[i]; i++) {
-        if(str[i] >= 0x30 && str[i] <= 0x39){
-            numCount++;
-        }    
+int main() {
+    char str1[100], str2[100];
+
+    printf("Введіть першу строку: ");
+    fgets(str1, sizeof(str1), stdin);
+
+    printf("Введіть другу строку: ");
+    fgets(str2, sizeof(str2), stdin);
+
+    // Порівняння строк за допомогою strcmp
+    if (strcmp(str1, str2) == 0) {
+        printf("Строки однакові.\n");
+    } else {
+        printf("Строки різні.\n");
     }
-    
-    printf("%d numbers in a string.", numCount);
+
+    return 0;
 }
