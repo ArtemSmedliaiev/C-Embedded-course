@@ -53,7 +53,7 @@ int main()
         {"Harry Potter and the Goblet of Fire", 644.19, 110, English, 290, 2000},
         {"Harry Potter and the Order of the Phoenix", 1982.0, 400, French, 800, 2003},
         {"Harry Potter and the Half-Blood Prince", 843.19, 370, English, 300, 2005},
-        {"Harry Potter and the Deathly Hallows", 938.06, 600, English, 1200, 2007}
+        {"Harry Potter and the Deathly Hallows", 938.06, 600, English, 1200, 2007}};
  
     
     // Initialize list
